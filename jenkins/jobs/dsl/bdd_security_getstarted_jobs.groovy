@@ -57,7 +57,7 @@ buildAppJob.with {
     }
     steps {
         shell('''set +x
-            |curl -O https://github.com/continuumsecurity/RopeyTasks/blob/master/ropeytasks.jar
+            |curl -O https://github.com/continuumsecurity/RopeyTasks/raw/master/ropeytasks.jar
             |java -jar ropeytasks.jar &
             |./gradlew -Dcucumber.options="--tags @authentication --tags ~@skip" test
             |set -x'''.stripMargin()
