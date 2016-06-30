@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Accenture/adop-cartridge-java.svg?branch=master)](https://travis-ci.org/Accenture/adop-cartridge-java)
+[![Build Status](https://travis-ci.org/Accenture/adop-cartridge-bdd-security.svg?branch=master)](https://travis-ci.org/Accenture/adop-cartridge-bdd-security)
 
 # What is Cartridge?
 
@@ -10,20 +10,14 @@ This cartridge consists of source code repositories and jenkins jobs.
 
 Cartridge loads the source code repositories
 
-* [spring-petclinic](https://github.com/spring-projects/spring-petclinic.git)
-* [adop-cartridge-java-regression-tests](https://github.com/Accenture/adop-cartridge-java-regression-tests)
-* [adop-cartridge-java-environment-template](https://github.com/Accenture/adop-cartridge-java-environment-template)
+* [bdd-security](https://github.com/kramos/bdd-security.git)
 
 ## Jenkins Jobs
 
 This cartridge generates the jenkins jobs and pipeline views to -
 
-* Provision the environment.
-* Build the source code from sprint petclinic repository.
-* Running unit tests on the compiled code.
-* Running sonar analysis on the code.
-* Deploy to an environment.
-* Run regression tests on deployed petclinic application.
+* Test demo bdd security
+
 
 ## Testing
 
