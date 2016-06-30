@@ -64,7 +64,7 @@ buildAppJob.with {
         )
     }
     publishers {
-        archiveArtifacts("**/*")
+        archiveArtifacts("**/index.html")
     }
 }
 
